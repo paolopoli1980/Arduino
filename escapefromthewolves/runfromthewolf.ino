@@ -303,6 +303,8 @@ if (wolfx[k]==herox && wolfy[k]==heroy)
 
 {
 digitalWrite(led6,HIGH);
+digitalWrite(led7,LOW);
+digitalWrite(led5,LOW);
 
 Serial.println("Il lupo ti ha preso");
 delay(4000);
